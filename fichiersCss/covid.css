@@ -1,0 +1,90 @@
+@font-face{font-family: 'Baloo';src:url('../fonts/Baloo-Regular.ttf');
+}
+
+body{
+    margin:0px;
+    padding:0;
+    width:100%;  
+}
+header{
+    width:100%;
+    margin:0px;
+}
+section{
+    margin:0px;
+    padding:0;
+    width:100%;    
+}
+/*bandeau de tête*/
+header .image img{
+    width:100%;
+}
+.head{
+    display:flex;
+    position:relative; 
+    height: 100px;
+}   
+.image {
+    position: absolute;
+    width:100%;
+    position:absolute;z-index:1;
+    top:0;
+    left:0;
+}
+.metier {
+    position:absolute;top:0px; width:300px; height:80px; z-index:2;font-size:200%;margin-left: 20px;
+}
+.metier p{
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'Baloo';
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px; 
+}
+li{
+    margin-left:15px;
+    list-style-type: none;     
+}
+.menu a{
+    color:rgb(129, 91, 66);
+    font-family:'Baloo' ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin:10px;
+}     
+
+.menu a{
+    color:rgb(129, 91, 66);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin:2px;
+}
+p{
+    font-family: 'Baloo';
+}
+.ligne{
+    width: 100%;
+}
+.ligne img{
+    width: 100%;
+}
+.message{
+    text-align:center;
+}
+.masque{
+    width: 30%;
+    margin:auto;
+}
+.masque img{
+    width: 100%;
+}
+footer{
+    margin-top: 10%;
+}
+footer .image img{
+    width:100%;
+}

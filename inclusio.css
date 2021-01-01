@@ -1,0 +1,216 @@
+@font-face{font-family: 'Baloo';src:url('fonts/Baloo-Regular.ttf');
+}
+
+body{
+    margin:0px;
+    padding:0;
+    width:100%;  
+}
+header{
+    width:100%;
+    margin:0px;
+}
+section{
+    margin:0px;
+    padding:0;
+    width:100%;    
+}
+/*bandeau de tête*/
+header .image img{
+    width:100%;
+}
+.head{
+    display:flex;
+    position:relative; 
+    height: 100px;
+}   
+.image {
+    position: absolute;
+    width:100%;
+    position:absolute;z-index:1;
+    top:0;
+    left:0;
+}
+.metier {
+    position:absolute;top:0px; width:300px; height:80px; z-index:2;font-size:200%;margin-left: 20px;
+}
+.metier p{
+    color:aliceblue;
+        font-weight: bold;
+        font-family: 'Baloo';
+}
+.horaires {
+    position:absolute; top:0;margin-left: 75%; width:200px; height:40px; z-index:2;font-size: 100%;
+}
+.horaires p{
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'Baloo';
+}
+/*barre de navigation*/
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px; 
+}
+li{
+    margin-left:15px;
+    list-style-type: none;     
+}
+.menu a{
+    color:rgb(129, 91, 66);
+    font-family:'Baloo' ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin:10px;
+}
+
+
+/*bloc de présentation*/
+.article{
+    height: 800px;
+}
+.ligne{
+    width: 100%;
+}
+.ligne img{
+    width: 100%;
+}
+.presentation{
+    border-bottom:3px solid rgb(129, 91, 66);
+    margin-left: 20px;;
+}
+p{
+    font-family: 'Baloo';
+}
+h1{
+    font-family: 'Baloo';
+    color:rgb(129, 91, 66);
+    font-size: 1.5rem;
+}
+.coordonnees{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.coordonnees p{
+    margin-left: 20px;
+}
+.local{
+    width:70%;
+}
+/*bloc 2 image de fond et titres*/
+
+#imagefond{
+    width: 100%;
+    height: 840px;
+    display:flex;
+    position:relative; 
+}   
+.image2 {
+    width:100%;
+    position:absolute;z-index:1;
+    top:10;
+    left:0;
+    background-size: cover;
+}
+.image2 img{
+    width: 100%;
+    opacity:20%;
+}
+.titre1 {
+    position:absolute;top:10px; width:300px; z-index:2;font-size:110%;margin-left: 20px;
+}
+.titre1 p{
+    color:rgb(129, 91, 66);
+    font-weight: bold;
+    font-family: 'Baloo';
+    margin-top:51px;
+}
+
+footer{
+    height: 80px;
+    width:100%;
+    margin:auto;
+    display:flex;
+    position:relative; 
+}
+footer .image3 img{
+    width:100%;
+   
+}
+.image3 {
+    position: absolute;
+    width:100%;
+    position:absolute;z-index:1;
+    top:0;
+    left:0;
+}
+.metier2 {
+    position:absolute;bottom:10px; width:300px; height:80px; z-index:2;font-size:200%;margin-left: 10px;
+}
+.metier2 p{
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'Baloo';
+}
+
+@media all and (max-device-width:480px)
+{
+    body{
+        width:100%;
+        margin:0px;
+    }
+    header{
+        width:100%;
+    } 
+    section{
+        margin:0px;
+        width:100%;        
+    }
+    .article{
+        width:100%; 
+    }
+    .metier {
+        position:absolute;top:0px; width:50%; height:80px; z-index:2;font-size:100%;margin-left: 10px;
+    }
+    .horaires {
+        position:absolute; top:0; width:50%; height:40px; z-index:2;font-size: 100%;
+    }
+    .horaires p{
+        color:aliceblue;
+        font-weight: bold;
+        font-family: 'Baloo';
+    }
+    .menu a{
+        color:rgb(129, 91, 66);
+        font-family:'Baloo' ;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin:2px;
+    }
+    li{
+        margin-left:2px;
+        list-style-type: none;     
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px; 
+    }
+    header .image3 img{
+        width:100%;
+    }
+    #imagefond{
+        width: 100%;
+        height: 300px;
+        display:flex;
+        position:relative; 
+    }  
+
+    footer{
+        margin:0px;
+        width: 100%;
+    }
+    
+}

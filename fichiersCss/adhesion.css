@@ -1,0 +1,118 @@
+@font-face{font-family: 'Baloo';src:url('../fonts/Baloo-Regular.ttf');
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+header{
+    width:100%;
+    margin:0px;
+}
+section{
+    margin:0px;
+    width:100%;
+}
+header .image img{
+    width:100%;
+}
+.head{
+    display:flex;
+    position:relative; 
+    height: 100px;
+}  
+.image {
+    position: absolute;
+    width:100%;
+    position:absolute;z-index:1;
+    top:0;
+    left:0;
+}
+.metier {
+        position:absolute;top:0px; width:300px; height:100px; z-index:2;font-size:200%;margin-left: 20px;
+}
+.metier p{
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'Baloo';
+    font-size: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;  
+}
+li{
+    margin-left:15px;
+    list-style-type: none;        
+}
+.menu a{
+    color:rgb(129, 91, 66);
+    font-family:'Baloo' ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin:10px;
+}
+p{
+    font-family: 'Baloo';
+    font-size: 1.2rem;
+}
+.ligne{
+    width: 100%;
+}
+.ligne img{
+    width: 100%;
+}
+h1{
+    font-family: 'Baloo'; 
+    color:rgb(129, 91, 66);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.adhesion{
+    background-color: rgba(129, 91, 66, 0.5);
+    padding-top: 20px;
+}
+.adhesion li{
+    margin-bottom: 10px;
+    width: 80%;
+    margin:auto;
+    border: 2px solid rgb(129, 91, 66);
+    border-radius: 45%;
+    margin-top:20px;
+    text-align: center;
+}
+.adhesion p{
+    margin-left: 20px;
+}
+.formulaire{
+    background-color: rgb(129, 91, 66, 0.5);
+    padding-top: 10px;
+}
+.formulaire p{
+    margin-left: 20px;
+}
+.competences{
+    background-color: rgb(129, 91, 66, 0.5);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.competences p{
+    margin-left: 20px;
+}
+
+span{
+    color:rgb(129, 91, 66);
+    font-family: 'Baloo';
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+footer .image img{
+    width:100%;
+}
