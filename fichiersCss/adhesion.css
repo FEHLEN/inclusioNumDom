@@ -191,9 +191,8 @@ footer .metier2 {
     }
     .adhesion li{
         border:none;
-        border-bottom: 6px solid rgb(129, 91, 66);
-        border-radius: 10%;
-        padding-bottom: 2px;
+        color:rgb(129, 91, 66);
+        font-family:'Baloo' ;
     }
    
    
