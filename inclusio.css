@@ -72,6 +72,7 @@ li{
 }
 .ligne{
     width: 100%;
+    margin:0;
 }
 .ligne img{
     width: 100%;
@@ -116,6 +117,7 @@ h1{
 }
 .image2 img{
     width: 100%;
+    height: 840px;
     opacity:20%;
 }
 .titre1 {
@@ -129,7 +131,7 @@ h1{
 }
 
 footer{
-    height: 80px;
+    height: 100px;
     width:100%;
     margin:auto;
     display:flex;
@@ -158,24 +160,33 @@ footer .image3 img{
 @media all and (max-device-width:480px)
 {
     body{
+        margin:0;
+        padding:0;
         width:100%;
-        margin:0px;
     }
     header{
         width:100%;
+        margin:0;
     } 
+    .head{
+        display:flex;
+        position:relative; 
+        height: 100px;
+        width: 100%;
+    }   
     section{
         margin:0px;
         width:100%;        
     }
     .article{
-        width:100%; 
+        width:100%;
+        height: 300px; 
     }
     .metier {
-        position:absolute;top:0px; width:50%; height:80px; z-index:2;font-size:100%;margin-left: 10px;
+        position:absolute;top:0px; width:150px; height:100px; z-index:2;font-size:100%;margin-left: 10px;
     }
     .horaires {
-        position:absolute; top:0; width:50%; height:40px; z-index:2;font-size: 100%;
+        position:absolute; top:0; width:150px; height:80px; z-index:2;font-size: 80%;margin-left: 50%;
     }
     .horaires p{
         color:aliceblue;
@@ -203,14 +214,28 @@ footer .image3 img{
     }
     #imagefond{
         width: 100%;
-        height: 300px;
+        height: 400px;
         display:flex;
         position:relative; 
-    }  
+    } 
+    .image2 img{
+        width: 100%;
+        height: 400px;
+        opacity:20%;
+    }
+    .titre1 p{
+        color:rgb(129, 91, 66);
+        font-weight: bold;
+        font-family: 'Baloo';
+        margin-top:10px;
+    }
 
     footer{
         margin:0px;
         width: 100%;
+    }
+    .metier2 {
+        position:absolute;bottom:10px; width:100%; height:80px; z-index:2;font-size:150%;margin-left: 10px;
     }
     
 }

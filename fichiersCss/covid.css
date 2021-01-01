@@ -43,7 +43,8 @@ header .image img{
 ul{
     display: flex;
     flex-direction: row;
-    margin-top: 10px; 
+    padding:10px;
+    margin-top: 20px; 
 }
 li{
     margin-left:15px;
@@ -88,3 +89,80 @@ footer{
 footer .image img{
     width:100%;
 }
+
+@media all and (max-device-width:480px)
+{
+    body{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    header{
+        width:100%;
+        margin:0;
+    } 
+    .head{
+        display:flex;
+        position:relative; 
+        height: 100px;
+        width: 100%;
+    }   
+    section{
+        margin:0px;
+        width:100%;        
+    }
+    .article{
+        width:100%;
+        height: 300px; 
+    }
+    .metier {
+        position:absolute;top:0px; width:100%; height:100px; z-index:2;font-size:200%;margin-left: 10px;
+    }
+    
+    .menu a{
+        color:rgb(129, 91, 66);
+        font-family:'Baloo' ;
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin:2px;
+    }
+    li{
+        margin-left:2px;
+        list-style-type: none;     
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px; 
+    }
+    header .image3 img{
+        width:100%;
+    }
+    #imagefond{
+        width: 100%;
+        height: 400px;
+        display:flex;
+        position:relative; 
+    } 
+    .image2 img{
+        width: 100%;
+        height: 400px;
+        opacity:20%;
+    }
+    .titre1 p{
+        color:rgb(129, 91, 66);
+        font-weight: bold;
+        font-family: 'Baloo';
+        margin-top:10px;
+    }
+
+    footer{
+        margin:0px;
+        width: 100%;
+    }
+    .metier2 {
+        position:absolute;bottom:10px; width:50%; height:80px; z-index:2;font-size:200%;margin-left: 10px;
+    }
+    
+}
+
